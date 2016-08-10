@@ -51,19 +51,14 @@ required for data to be returned to the client. (bullet points or ordered list)
 // your response here
 ```
 
-What is the command to generate a new rails-api app?
-
-```bash
-// your response here
-```
-
 What is the command to start an instance of a rails server?
 
 ```bash
 // your response here
 ```
 
-What are the commands to drop, create and migrate a database? (3 bullet points)
+What are the commands to drop, create, migrate and seed a database? (3 bullet
+points)
 
 ```bash
 // your response here
