@@ -6,72 +6,78 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What is the purpose of a backend?
 
 ```bash
-// your response here
+store data and send the data back to client
 ```
 
 Which layer in the MVC pattern is used by the controller to fetch data?
 
 ```bash
-// your response here
+route
 ```
 
 Which layer in the MVC pattern communicates with the model?
 
 ```bash
-// your response here
+controller
 ```
 
 Why don't we use views in our interpretation of the MVC pattern?
 
 ```bash
-// your response here
+Becasuse controller can send data directly to client by Json
 ```
 
 What does C.R.U.D stand for?
 
 ```bash
-// your response here
+create, read, update, delete
 ```
 
 In which part of the MVC pattern can we find C.R.U.D actions?
 
 ```bash
-// your response here
+controller
 ```
 List at least 5 standard actions that C.R.U.D corresponds to?
 
 ```bash
-// your response here
+create, index, show, update, destroy
 ```
 
 A user action fires a `GET` request for `person/1`. Explain in detail each step
 required for data to be returned to the client. (bullet points or ordered list)
 
 ```bash
-// your response here
+Route get the client request and send it to controller.
+Controller ask model to fetch the data.
+Model get the data from database and send it back to controller.
+Controller send the data by Json to client.
 ```
 
 What is the command to start an instance of a rails server?
 
 ```bash
-// your response here
+rails c
 ```
 
-What are the commands to drop, create, migrate and seed a database? (3 bullet
+What are the commands to drop, create, migrate and seed a database? (4 bullet
 points)
 
 ```bash
-// your response here
+rails db:create
+rails db:drop
+rails db:migrate
+rails db:seed
 ```
 
 What is the command to scaffold a pet with a name and an age?
 
 ```bash
-// your response here
+rails g scaffold pet name:string age:integer
 ```
 
 List two advantages of using serializers? (2 bullet points)
 
 ```bash
-// your response here
+Easy to change Json presentation 
 ```
