@@ -3,74 +3,71 @@
 Place your responses inside the fenced code-blocks where indicated by comments.
 
 
-What is the purpose of a backend?
+What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```bash
 // your response here
 ```
 
-Which layer in the MVC pattern is used by the controller to fetch data?
+In what file does the above code go?
 
 ```bash
 // your response here
 ```
 
-Which layer in the MVC pattern communicates with the model?
+In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```bash
 // your response here
 ```
 
-Why don't we use views in our interpretation of the MVC pattern?
+What do we call the string rendered from our server?
 
 ```bash
 // your response here
 ```
 
-What does C.R.U.D stand for?
+What is the difference between `rails g scaffold things` and
+`rails g controller things`?
 
 ```bash
 // your response here
 ```
 
-In which part of the MVC pattern can we find C.R.U.D actions?
-
-```bash
-// your response here
-```
-List at least 5 standard actions that C.R.U.D corresponds to?
+What is the job of the `serializer`?
 
 ```bash
 // your response here
 ```
 
-A user action fires a `GET` request for `person/1`. Explain in detail each step
-required for data to be returned to the client. (bullet points or ordered list)
+What do we expect the command `Patient.all` to return?
 
 ```bash
 // your response here
 ```
 
-What is the command to start an instance of a rails server?
+We use the constant `Patient` in the `PatientsController`, but where is it
+actually defined?
 
 ```bash
 // your response here
 ```
 
-What are the commands to drop, create, migrate and seed a database? (3 bullet
-points)
+Why do our `model` files appear to be lacking so much code, when they're doing
+so much for us?
 
 ```bash
 // your response here
 ```
 
-What is the command to scaffold a pet with a name and an age?
+What does typing `rails console` in a directory that houses a rails app do for
+us?
 
 ```bash
 // your response here
 ```
 
-List two advantages of using serializers? (2 bullet points)
+What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```bash
 // your response here
