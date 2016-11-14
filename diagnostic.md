@@ -72,3 +72,10 @@ What does typing `rails db` in a directory that houses a rails app do for us?
 ```bash
 // your response here
 ```
+
+What is the specific name for the type of string our data will be coming back
+from the server in?
+
+```bash
+// your response here
+```
