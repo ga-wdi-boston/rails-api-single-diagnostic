@@ -6,19 +6,21 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```bash
-// your response here
+resources :books, only: [:show]
+get '/books/4', to: 'books#show'
+
 ```
 
 In what file does the above code go?
 
 ```bash
-// your response here
+routes.rb
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```bash
-// your response here
+Using the gems, which have been installed in the repo, the gem rake makes changes to the database.
 ```
 
 What do we call the string rendered from our server?
@@ -31,51 +33,53 @@ What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```bash
-// your response here
+A scaffold creates all of the basic file structure need for an app along with the controller, model and view.
+
+`rails g controller things` will only create a things controller
 ```
 
 What is the job of the `serializer`?
 
 ```bash
-// your response here
+A serializer acts a filter and determines what parts of a table can be used by the front end.
 ```
 
 What do we expect the command `Patient.all` to return?
 
 ```bash
-// your response here
+All the patients
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```bash
-// your response here
+in the migration
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
 so much for us?
 
 ```bash
-// your response here
+because the controller is telling the model what to do
 ```
 
 What does typing `rails console` in a directory that houses a rails app do for
 us?
 
 ```bash
-// your response here
+It opens up the rails REPL so that you can directly interact with the database.
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```bash
-// your response here
+It places you in the databaseb that the app uses.
 ```
 
 What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```bash
-// your response here
+a secure string ?
 ```
