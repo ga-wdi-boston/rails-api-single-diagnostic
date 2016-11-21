@@ -6,76 +6,78 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```bash
-// your response here
+- the router
+- using a curl request
 ```
 
 In what file does the above code go?
 
 ```bash
-// your response here
+scripts/get-books.sh
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```bash
-// your response here
+it executes the rake script with thw command migrate in the current bundle
 ```
 
 What do we call the string rendered from our server?
 
 ```bash
-// your response here
+curl
 ```
 
 What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```bash
-// your response here
+
 ```
 
 What is the job of the `serializer`?
 
 ```bash
-// your response here
+The serializer decides which of the attributes will be shown to users in the
+database.
 ```
 
 What do we expect the command `Patient.all` to return?
 
 ```bash
-// your response here
+retuens all the patients and their attributes in the database.
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```bash
-// your response here
+Patient is defined in the ruby class
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
 so much for us?
 
 ```bash
-// your response here
+
 ```
 
 What does typing `rails console` in a directory that houses a rails app do for
 us?
 
 ```bash
-// your response here
+runs pry
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```bash
-// your response here
+enables us to use psql, the command-line interface to PostgreSQL.
 ```
 
 What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```bash
-// your response here
+json
 ```
