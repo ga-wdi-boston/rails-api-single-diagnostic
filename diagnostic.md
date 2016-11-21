@@ -18,13 +18,13 @@ In what file does the above code go?
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```bash
-// your response here
+it combines the the items you wish to put into your table
 ```
 
 What do we call the string rendered from our server?
 
 ```bash
-// your response here
+json
 ```
 
 What is the difference between `rails g scaffold things` and
@@ -43,7 +43,7 @@ What is the job of the `serializer`?
 What do we expect the command `Patient.all` to return?
 
 ```bash
-// your response here
+it will return an error without the proper form of typing it into the console.
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
