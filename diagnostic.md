@@ -18,64 +18,66 @@ In what file does the above code go?
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```bash
-// your response here
+bundle exec is a bundler command, db is the namespace and migrate is the task
+name defined.
 ```
 
 What do we call the string rendered from our server?
 
 ```bash
-// your response here
+
 ```
 
 What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```bash
-// your response here
+Scaffold is used to set your model up that has database migration and Controller
+is a little different but sets things up for us as well just that it gave us a controller file a functional test file and a view file.
 ```
 
 What is the job of the `serializer`?
 
 ```bash
-// your response here
+this will translate data into a format that is storable.
 ```
 
 What do we expect the command `Patient.all` to return?
 
 ```bash
-// your response here
+This will return all of our patients.
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```bash
-// your response here
+
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
 so much for us?
 
 ```bash
-// your response here
+
 ```
 
 What does typing `rails console` in a directory that houses a rails app do for
 us?
 
 ```bash
-// your response here
+It allows you to interact with your rails application from the command line.
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```bash
-// your response here
+
 ```
 
 What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```bash
-// your response here
+JavaScript Object Notation
 ```
