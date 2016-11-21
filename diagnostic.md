@@ -12,7 +12,7 @@ curl request or AJAX call
 In what file does the above code go?
 
 ```bash
-Controller files.
+Routes files.
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
