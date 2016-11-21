@@ -6,13 +6,14 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```bash
-show, index (?)
+get '/books/:id', to: 'books#show'
+get '/books/:id' => 'books#show'
 ```
 
 In what file does the above code go?
 
 ```bash
-Controller
+Routes.rb
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
@@ -24,7 +25,7 @@ This is a rake command that loads starting data (if any exists) and/or migrates/
 What do we call the string rendered from our server?
 
 ```bash
-JSON (?)
+Response
 ```
 
 What is the difference between `rails g scaffold things` and
@@ -59,7 +60,7 @@ Why do our `model` files appear to be lacking so much code, when they are doing
 so much for us?
 
 ```bash
-Rails has built in functions for the model files and does a lot of work for us.
+The methods used by the model are defined in the controller.
 ```
 
 What does typing `rails console` in a directory that houses a rails app do for
