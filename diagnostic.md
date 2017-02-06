@@ -21,12 +21,6 @@ In your own words, what does the command `bundle exec rake db:migrate` do?
 // your response here
 ```
 
-What do we call the string rendered from our server?
-
-```bash
-// your response here
-```
-
 What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
