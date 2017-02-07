@@ -54,7 +54,7 @@ so much for us?
 // your response here
 ```
 
-What does typing `rails console` in a directory that houses a rails app do for
+What does typing `bin/rails dbconsole` in a directory that houses a rails app do for
 us?
 
 ```md
