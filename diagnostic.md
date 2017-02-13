@@ -93,5 +93,5 @@ What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```md
-// your response here
+JSON
 ```
