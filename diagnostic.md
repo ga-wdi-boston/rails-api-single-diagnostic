@@ -18,33 +18,32 @@ In what file does the above code go?
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```md
-// your response here
+db:migrate checks which missing migrations still need to be applied to the database without caring about the previouse ones.
 ```
 
 What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```md
-// your response here
-```
+when you scaffold you create 3 files controllers model and serializer```
 
 What is the job of the `serializer`?
 
 ```md
-// your response here
+to show us what type of data to export to json
 ```
 
 What do we expect the command `Patient.all` to return?
 
 ```md
-// your response here
+a list of all patients
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```md
-// your response here
+Controller classes inherit from ApplicationController, which is the other file in the controllers folder: application.rb.
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
@@ -58,18 +57,17 @@ What does typing `bin/rails dbconsole` in a directory that houses a rails app do
 us?
 
 ```md
-// your response here
-```
+open up the console with the data base that we work on. we could test our code there. it opens rails from the command line. ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```md
-// your response here
+open psql with the database that we work on
 ```
 
 What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```md
-// your response here
+json
 ```
