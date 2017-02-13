@@ -6,45 +6,45 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```rb
-// your response here
+get '/books', to: 'books#4'
 ```
 
 In what file does the above code go?
 
 ```md
-// your response here
+config/routes.rb
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```md
-// your response here
+bundle exec rake db:migrate will take existing information from one table and migrate them into a whole new database.
 ```
 
 What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```md
-// your response here
+generating scaffold will create all the major pieces of an application(model, controller, etc), while generate controller will generate a controller for things.
 ```
 
 What is the job of the `serializer`?
 
 ```md
-// your response here
+The job of the serializer is to serialize which specific attributes and relationships are important for our data in json. 
 ```
 
 What do we expect the command `Patient.all` to return?
 
 ```md
-// your response here
+Patient.all will return all patient objects within the scope.
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```md
-// your response here
+The model
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
@@ -58,18 +58,18 @@ What does typing `bin/rails dbconsole` in a directory that houses a rails app do
 us?
 
 ```md
-// your response here
+This will start rails in the terminal.
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```md
-// your response here
+This will give list a variety of options regarding a potential rails app
 ```
 
 What is the specific name for the type of string our data will be coming back
 from the server in?
 
 ```md
-// your response here
+
 ```
