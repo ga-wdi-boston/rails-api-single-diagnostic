@@ -6,7 +6,7 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```rb
-get '/books', to: 'books#index'
+get '/books/:id', to: 'books#show'
 OR
 resources :books, except: [:new, :edit]
 ```
