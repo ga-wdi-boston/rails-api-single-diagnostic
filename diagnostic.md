@@ -32,7 +32,7 @@ What is the difference between `rails g scaffold things` and
 What is the job of the `serializer`?
 
 ```md
-A serializer controls which attributes of the object to return in a GET request.  So far I have used the serializer to prevent the different timestamps from showing up in my requests so that my screen isn't cluttered by them.
+A serializer controls which attributes of the object to return in a GET request, in JSON format.  So far I have used the serializer to prevent the different timestamps from showing up in my requests so that my screen isn't cluttered by them.
 ```
 
 What do we expect the command `Patient.all` to return?
