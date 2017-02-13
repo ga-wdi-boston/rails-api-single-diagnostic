@@ -34,7 +34,7 @@ But that latter one is kind of excessive.
 In what file does the above code go?
 
 ```md
-app/config/routes.rb
+config/routes.rb
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
