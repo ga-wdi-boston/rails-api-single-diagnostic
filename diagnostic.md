@@ -86,7 +86,7 @@ It opens up pry in the database of the rails app.
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```md
-// your response here
+It opens up the database for that rails app? (I can't 100% remember to be honest)
 ```
 
 What is the specific name for the type of string our data will be coming back
