@@ -12,7 +12,7 @@ What are two ways of telling rails where to route a GET request to '/books/4'?
 In what file does the above code go?
 
 ```md
-The routes file
+The routes file   
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
