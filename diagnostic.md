@@ -21,8 +21,8 @@ In your own words, what does the command `bundle exec rake db:migrate` do?
 // your response here
 ```
 
-What is the difference between `rails g scaffold things` and
-`rails g controller things`?
+What is the difference between `rails generate scaffold dogs` and
+`rails generate controller dogs`?
 
 ```md
 // your response here
