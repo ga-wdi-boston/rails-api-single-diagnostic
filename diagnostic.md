@@ -6,16 +6,14 @@ Place your responses inside the fenced code-blocks where indicated by comments.
 What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```rb
-get '/books/4' => 'patients#show'
+get '/books/4' => 'books#show'
 resources :books, only: [:show]
 ```
 
 In what file does the above code go?
 
 ```md
-Is this supposed to say "WHERE does the above code go"?
-
-If so, it goes config/routes.rb
+config/routes.rb
 ```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
@@ -54,14 +52,14 @@ Why do our `model` files appear to be lacking so much code, when they're doing
 so much for us?
 
 ```md
-Becuase they are inheriting hundreds of methods from Application Record.
+Becuase they are inheriting hundreds of class and instance methods from Application Record and Object.
 ```
 
 What does typing `bin/rails dbconsole` in a directory that houses a rails app do for
 us?
 
 ```md
-Opens the rails console and allows you to interact with the database via the terminal.
+Figures out which database you're using and drops you into whichever command line interface you would use with it.
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
