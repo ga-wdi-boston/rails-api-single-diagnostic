@@ -45,7 +45,7 @@ We use the constant `Patient` in the `PatientsController`, but where is it
 actually defined?
 
 ```md
-// 
+//
 ```
 
 Why do our `model` files appear to be lacking so much code, when they're doing
