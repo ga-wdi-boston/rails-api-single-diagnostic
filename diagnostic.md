@@ -13,12 +13,12 @@ post '/books/4' => 'books#show'
 In what file does the above code go?
 
 ```md
-In the routes.rb folder file in the config folder```
+In the routes.rb file in the config folder```
 
 In your own words, what does the command `bundle exec rake db:migrate` do?
 
 ```md
-It runs that latest migration or migrations to update the database.
+It runs that latest migration or migrations to update the schema and the database.
 
 ```
 
@@ -26,7 +26,7 @@ What is the difference between `rails g scaffold things` and
 `rails g controller things`?
 
 ```md
-rails generate scaffold thing will generate the entire scaffold, including the thing's controller, for the object things.  rails genrerate controller things will only generate the things controller
+rails generate scaffold thing will generate the entire scaffold (routes, model, specs, ect.), including the thing's controller, for the object things.  rails genrerate controller things will only generate the things controller.
 ```
 
 What is the job of the `serializer`?
@@ -53,20 +53,20 @@ Why do our `model` files appear to be lacking so much code, when they're doing
 so much for us?
 
 ```md
-Most of what the model does is recieving commands from the controller.  It does a lot but doesn not need so much required code because of its connection to the controller. It also inherites from Application Record so it doesn't need to spell out all the methods it has available to it.
+Most of what the model does is recieving commands from the controller then talking to the database to either store, retieve or validate data.  It does a lot but doesn't required much code because of its connection to the controller. It also inherites from Application Record so it doesn't need to spell out all the methods it has available to it.
 ```
 
 What does typing `bin/rails dbconsole` in a directory that houses a rails app do for
 us?
 
 ```md
-It launches pry using the rails files so that you can references them, and even make changes to the database using .save straight from the rails console.
+It launches pry using the rails database files so that you can references them, and even make changes to the database using .save straight from the rails console.
 ```
 
 What does typing `rails db` in a directory that houses a rails app do for us?
 
 ```md
-// your response here
+Typing rails db opens up the database in psql in the terminal.  It will open whatever database is in the director you are in.
 ```
 
 What is the specific name for the type of string our data will be coming back
