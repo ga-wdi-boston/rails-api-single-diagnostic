@@ -7,7 +7,7 @@ What are two ways of telling rails where to route a GET request to '/books/4'?
 
 ```rb
 resources :books, only: [:index]
-get '/books' => 'patients#index'
+get '/books' => 'books#index'
 ```
 
 In what file does the above code go?
