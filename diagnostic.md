@@ -39,7 +39,7 @@ Filters info coming from the API, and display into browser. For example, it filt
 What do we expect the command `Patient.all` to return?
 
 ```md
-All instances of the Patient class that you have defined.
+All instances of the Patient class that you have defined. In other words, all our data of patients in our patients table.
 ```
 
 We use the constant `Patient` in the `PatientsController`, but where is it
